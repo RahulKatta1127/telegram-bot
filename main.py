@@ -6,8 +6,8 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.environ["8749833435:AAH601g8v-P28Q4L0bzHYeEJAQTxVu1W6hY"]
-GEMINI_API_KEY = os.environ["AIzaSyBkyGZrlZm24ZjYx0qBp2SheJeHTSKmuaE"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 

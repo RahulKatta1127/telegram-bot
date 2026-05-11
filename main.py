@@ -1,3 +1,4 @@
+import os
 from google import genai
 from telegram.ext import (
     ApplicationBuilder,
